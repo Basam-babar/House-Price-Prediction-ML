@@ -1,54 +1,31 @@
-# House Price Prediction using Machine Learning 🏡📊
+# House Price Prediction using Machine Learning
 
-## Project Overview
-This project focuses on predicting house prices using various
-machine learning regression models. The dataset used is the
-King County House Sales dataset.
+## Overview
+This project predicts house prices using multiple
+machine learning regression models.
 
-The project includes data exploration, preprocessing,
-feature engineering, model training, evaluation, and visualization.
+## Dataset
+King County House Sales Dataset.
 
----
-
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-
----
-
-## Machine Learning Models
+## Models Used
 - Linear Regression
 - Ridge Regression
 - Lasso Regression
-- Random Forest Regressor
-- Gradient Boosting Regressor
+- Random Forest
+- Gradient Boosting
 
----
+## Features
+- Exploratory Data Analysis
+- Feature Engineering
+- Model Comparison
+- Performance Visualization
 
-## Key Features
-- Exploratory Data Analysis (EDA)
-- Feature engineering
-- One-hot encoding for categorical data
-- Model comparison using RMSE, MAE, R²
-- Cross-validation
-- Residual analysis
-- Geographical price visualization
-
----
-
-## Dataset
-- `kc_House_Data.csv`
-- Contains information about house prices, size, location,
-  condition, and other features.
-
----
-
-## How to Run the Project
-1. Clone the repository
-2. Install dependencies:
-   ```bash
+## How to Run
+1. Install dependencies:
    pip install -r requirements.txt
+2. Run:
+   python house_price_model.py
+
+## Author
+Ahmad Hassan
+FAST-NUCES
